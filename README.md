@@ -1,1 +1,1 @@
-# browserify-factor-bundle
+# Browserify + factor-bundle = &hearts;

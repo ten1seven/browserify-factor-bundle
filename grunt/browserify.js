@@ -7,7 +7,14 @@ module.exports = {
     dest: './assets/common.js',
     options: {
       plugin: [
-        ['factor-bundle', { outputs: [ './assets/page1.js', './assets/page2.js'] }]
+        [
+          'factor-bundle', {
+            outputs: [
+              './assets/page1.js',
+              './assets/page2.js'
+            ]
+          }
+        ]
       ],
     }
   }
