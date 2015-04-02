@@ -1,3 +1,3 @@
-var z = require('./z.js');
+var one = require('./modules/thing1.js');
 
-console.log(z(2) + 111);
+console.log('[page2]' + one.message);

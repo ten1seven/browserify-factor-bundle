@@ -1,4 +1,5 @@
-var z = require('./z.js');
-var w = require('./w.js');
+var one = require('./modules/thing1.js');
+var two = require('./modules/thing2.js');
 
-console.log(z(5) * w(2));
+console.log('[page1] ' + one.message);
+console.log('[page1] ' + two.message);
