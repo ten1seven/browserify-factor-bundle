@@ -5,8 +5,10 @@ module.exports = {
     'watch'
   ],
   'scripts': [
+    'clean:before',
     'browserify',
     'concat',
+    'clean:after',
     'notify:scripts'
   ]
 };
