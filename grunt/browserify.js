@@ -2,8 +2,7 @@ module.exports = {
   default: {
     src: [
       './src/global.js',
-      './src/page1.js',
-      './src/page2.js'
+      './src/page.js'
     ],
     options: {
       browserifyOptions: {
@@ -14,8 +13,7 @@ module.exports = {
           'factor-bundle', {
             outputs: [
               './assets/global.js',
-              './assets/page1.js',
-              './assets/page2.js'
+              './assets/page.js'
             ]
           }
         ]
