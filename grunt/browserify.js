@@ -5,8 +5,10 @@ module.exports = {
       './src/page1.js',
       './src/page2.js'
     ],
-    dest: './assets/common.js',
     options: {
+      browserifyOptions: {
+        debug: true
+      },
       plugin: [
         [
           'factor-bundle', {
@@ -18,6 +20,7 @@ module.exports = {
           }
         ]
       ],
-    }
+    },
+    dest: './assets/common.js'
   }
 };
