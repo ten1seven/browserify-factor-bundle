@@ -1,3 +1,3 @@
 module.exports = {
-  'message': 'Global Thing 2'
+  'message': 'global-thing2.js'
 };

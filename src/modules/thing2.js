@@ -1,3 +1,3 @@
 module.exports = {
-  'message': 'Thing 2'
+  'message': 'thing2.js'
 };
